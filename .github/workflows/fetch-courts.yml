@@ -1,0 +1,30 @@
+name: Fetch Court Availability
+
+on:
+  schedule:
+    # 2:00 PM PT (PDT = UTC-7, so 21:00 UTC)
+    - cron: '0 21 * * *'
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch court availability
+        run: node fetch.js
+
+      - name: Commit data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "Court data $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

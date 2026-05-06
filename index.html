@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tennis Court Tracker</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f0;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #2d6a2d;
+      color: white;
+      padding: 16px 16px 12px;
+    }
+
+    header h1 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+
+    header p {
+      font-size: 0.75rem;
+      opacity: 0.75;
+      margin-top: 2px;
+    }
+
+    /* Day selector */
+    #day-bar {
+      background: #2d6a2d;
+      padding: 0 12px 14px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    #day-bar::-webkit-scrollbar { display: none; }
+
+    .day-pill {
+      flex-shrink: 0;
+      background: rgba(255,255,255,0.18);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 7px 14px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1px;
+      transition: background 0.15s;
+    }
+    .day-pill .dow { font-weight: 700; font-size: 0.75rem; }
+    .day-pill .date { font-size: 0.7rem; opacity: 0.85; }
+    .day-pill.active {
+      background: white;
+      color: #2d6a2d;
+    }
+    /* (no-courts style removed — all days are now selectable) */
+
+    /* Main content */
+    #main {
+      padding: 14px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    #day-label {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #2d6a2d;
+      margin-bottom: 12px;
+    }
+
+    /* Court filter legend */
+    #legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+    .legend-tag {
+      font-size: 0.7rem;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+      color: white;
+    }
+
+    /* Loading / error */
+    #status {
+      text-align: center;
+      padding: 40px 20px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    #status .spinner {
+      width: 28px;
+      height: 28px;
+      border: 3px solid #ddd;
+      border-top-color: #2d6a2d;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Slot cards */
+    .slot-card {
+      background: white;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    }
+    .slot-time {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+    }
+    .slot-courts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .court-tag {
+      font-size: 0.72rem;
+      padding: 3px 9px;
+      border-radius: 10px;
+      color: white;
+      font-weight: 600;
+    }
+
+    /* Court colors */
+    .color-presidio  { background: #c0392b; }
+    .color-ggp       { background: #2471a3; }
+    .color-menlo     { background: #1e8449; }
+
+    .no-results {
+      text-align: center;
+      padding: 30px 16px;
+      color: #888;
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    .error-box {
+      background: #fff5f5;
+      border: 1px solid #ffcdd2;
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+      font-size: 0.78rem;
+      color: #c62828;
+    }
+    .error-box a { color: #c62828; }
+
+    .court-section-header {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #999;
+      margin: 14px 0 6px;
+    }
+
+    .refresh-btn {
+      display: block;
+      margin: 16px auto 0;
+      background: #2d6a2d;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 28px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .refresh-btn:active { opacity: 0.85; }
+
+    .cache-banner {
+      font-size: 0.72rem;
+      color: #888;
+      text-align: center;
+      margin-bottom: 10px;
+      padding: 4px 0;
+    }
+
+    /* Text-color helpers used in error box labels */
+    strong.color-presidio { color: #c0392b; }
+    strong.color-ggp      { color: #2471a3; }
+    strong.color-menlo    { color: #1e8449; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎾 Tennis Court Tracker</h1>
+  <p>Presidio · Golden Gate Park · Menlo Park</p>
+</header>
+
+<div id="day-bar"></div>
+
+<div id="main">
+  <div id="day-label"></div>
+  <div id="legend"></div>
+  <div id="status">
+    <p>Select a day above to check availability.</p>
+  </div>
+  <div id="results" style="display:none"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
