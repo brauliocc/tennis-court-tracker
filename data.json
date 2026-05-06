@@ -1,13 +1,8 @@
 {
-  "fetchedAt": "2026-05-06T22:41:28.101Z",
+  "fetchedAt": "2026-05-06T23:05:01.227Z",
   "days": {
     "2026-05-06": {
       "menlo": [
-        {
-          "startH": 16,
-          "endH": 17,
-          "label": "Menlo: Kelly Park"
-        },
         {
           "startH": 16.5,
           "endH": 17.5,
