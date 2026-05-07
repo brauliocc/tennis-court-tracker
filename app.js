@@ -76,7 +76,7 @@ function fmtSlot(a, b) { return `${fmtHour(a)} – ${fmtHour(b)}`; }
 
 // ─── Cached data (loaded from data.json on startup) ───────────────────────────
 
-let cachedData = null; // { fetchedAt: ISOString, days: { "YYYY-MM-DD": {presidio,ggp,menlo,...} } }
+let cachedData = null; // { fetchedAt, courtsFetchedAt: {presidio,ggp,menlo}, days: {...} }
 
 async function loadCache() {
   try {
@@ -100,6 +100,19 @@ function getCachedSlots(dateStr, courtKey) {
 function cacheAge() {
   if (!cachedData?.fetchedAt) return Infinity;
   return (Date.now() - new Date(cachedData.fetchedAt).getTime()) / 1000 / 60 / 60; // hours
+}
+
+// Return the last-updated Date for a specific court (falls back to global fetchedAt)
+function courtLastUpdated(key) {
+  const iso = cachedData?.courtsFetchedAt?.[key] ?? cachedData?.fetchedAt;
+  return iso ? new Date(iso) : null;
+}
+
+function fmtTimestamp(d) {
+  if (!d) return "unknown";
+  const today = toDateStr(new Date());
+  const label = toDateStr(d) === today ? "today" : d.toLocaleDateString([], { month: "short", day: "numeric" });
+  return `${label} at ${d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`;
 }
 
 // ─── CORS proxy helpers (for live browser fallback) ───────────────────────────
@@ -188,9 +201,16 @@ async function liveGoldenGate(date) {
   const avail = new Set();
   for (const item of (data?.Data ?? [])) {
     if ((item.AvailableCourts ?? 0) === 0 || item.IsClosed) continue;
+    // Id field is UTC (e.g. "Hard05/08/2026 14:00:00" = 7:00 AM PT)
+    // Convert to browser local time (user is in PT) for correct date + hour
     const m = String(item.Id ?? "").match(/(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/);
-    if (!m || `${m[3]}-${m[1]}-${m[2]}` !== dateStr) continue;
-    avail.add(parseInt(m[4]) * 2 + (parseInt(m[5]) >= 30 ? 1 : 0));
+    if (!m) continue;
+    const local = new Date(Date.UTC(
+      parseInt(m[3]), parseInt(m[1]) - 1, parseInt(m[2]),
+      parseInt(m[4]), parseInt(m[5])
+    ));
+    if (toDateStr(local) !== dateStr) continue;
+    avail.add(local.getHours() * 2 + (local.getMinutes() >= 30 ? 1 : 0));
   }
   const slots = [];
   for (let h = 7; h < 22; h++) {
@@ -204,8 +224,8 @@ async function liveGoldenGate(date) {
 
 async function liveMenloUnavailable() {
   throw new Error(
-    "Menlo Park needs a server-side session to check (CSRF + cookie). " +
-    "Data updates automatically via GitHub Actions every hour — or tap the link to book manually."
+    "Covers 4 parks: Burgess, Kelly, Nealon (2 courts), Willow Oaks (2 courts). " +
+    "Live lookup requires a server-side session — data refreshes via GitHub Actions every hour."
   );
 }
 
@@ -304,7 +324,7 @@ async function loadDay(date, dow) {
           win
         );
       } else if (cached?.error) {
-        errors.push({ name: court.name, color: court.color, bookUrl: court.bookUrl, error: cached.error, fromCache: true });
+        errors.push({ key, name: court.name, color: court.color, bookUrl: court.bookUrl, error: cached.error });
         return;
       }
     }
@@ -318,7 +338,7 @@ async function loadDay(date, dow) {
           win
         );
       } catch (e) {
-        errors.push({ name: court.name, color: court.color, bookUrl: court.bookUrl, error: e.message, fromCache: false });
+        errors.push({ key, name: court.name, color: court.color, bookUrl: court.bookUrl, error: e.message });
         return;
       }
     }
@@ -331,23 +351,16 @@ async function loadDay(date, dow) {
   resultsEl.style.display = "";
   resultsEl.innerHTML = "";
 
-  // Cache info banner
-  if (cachedData?.fetchedAt && cacheAge() < 25) {
-    const fetchTime = new Date(cachedData.fetchedAt);
-    const timeStr = fetchTime.toLocaleTimeString([], {hour:"2-digit", minute:"2-digit"});
-    const dateLabel = toDateStr(fetchTime) === toDateStr(new Date()) ? "today" : fetchTime.toLocaleDateString();
-    const info = document.createElement("div");
-    info.className = "cache-banner";
-    info.textContent = `Data fetched ${dateLabel} at ${timeStr}`;
-    resultsEl.appendChild(info);
-  }
-
-  // Errors
+  // Errors — include per-court last-updated timestamp
   errors.forEach(r => {
+    const ts = courtLastUpdated(r.key);
     const div = document.createElement("div");
     div.className = "error-box";
-    div.innerHTML = `<span class="court-tag color-${r.color}" style="margin-bottom:6px;display:inline-block">${r.name}</span> ${r.error}<br>
-      <a href="${r.bookUrl}" target="_blank">Check / book manually →</a>`;
+    div.innerHTML =
+      `<span class="court-tag color-${r.color}" style="margin-bottom:6px;display:inline-block">${r.name}</span> ` +
+      `${r.error}` +
+      (ts ? `<br><span class="cache-note">Last data: ${fmtTimestamp(ts)}</span>` : "") +
+      `<br><a href="${r.bookUrl}" target="_blank">Check / book manually →</a>`;
     resultsEl.appendChild(div);
   });
 
@@ -387,6 +400,21 @@ async function loadDay(date, dow) {
       ? `No openings at ${notices.join(" or ")} during your preferred hours.`
       : "No courts on schedule for this day — nothing to show.";
     resultsEl.appendChild(div);
+  }
+
+  // Per-court data freshness footer
+  const checkedCourts = Object.entries(COURTS).filter(([, c]) => c.preferredDays.includes(dow));
+  if (checkedCourts.length > 0 && cacheAge() < 25) {
+    const footer = document.createElement("div");
+    footer.className = "sources-footer";
+    footer.innerHTML = checkedCourts.map(([key, court]) => {
+      const ts = courtLastUpdated(key);
+      return `<span class="source-item">
+        <span class="court-dot color-${court.color}"></span>
+        ${court.name}: ${ts ? fmtTimestamp(ts) : "no data"}
+      </span>`;
+    }).join("");
+    resultsEl.appendChild(footer);
   }
 
   // Refresh button

@@ -1,6 +1,6 @@
 // fetch.js — run with Node.js 20+ (no dependencies needed)
 // Fetches court availability for the next 8 days and saves to data.json
-// Called by GitHub Actions daily at 2pm PT
+// Called by GitHub Actions every hour
 
 const fs = require("fs");
 
@@ -34,6 +34,22 @@ function parseHHMM(s) {
 function parseDotNetDate(str) {
   const m = String(str||"").match(/\/Date\((-?\d+)/);
   return m ? parseInt(m[1]) : null;
+}
+
+// Convert a UTC Date to America/Los_Angeles local parts (handles DST automatically)
+function utcToLocalPT(utcDate) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles",
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", hour12: false,
+  }).formatToParts(utcDate);
+  const p = {};
+  for (const { type, value } of parts) p[type] = value;
+  return {
+    dateStr: `${p.year}-${p.month}-${p.day}`,
+    h: parseInt(p.hour) % 24, // hour12:false returns 00-23; % 24 handles rare "24" edge
+    mi: parseInt(p.minute),
+  };
 }
 
 // ─── Presidio — rec.us ───────────────────────────────────────────────────────
@@ -98,12 +114,17 @@ async function fetchGoldenGate(date) {
 
   for (const item of items) {
     if ((item.AvailableCourts ?? 0) === 0 || item.IsClosed) continue;
-    // Use the Id field for local date/time (avoids UTC timezone shift issues)
+    // Id field is UTC (e.g. "Hard05/08/2026 14:00:00" = 7:00 AM PT)
+    // Must convert UTC → America/Los_Angeles before comparing dates or storing hours
     const id = String(item.Id ?? "");
     const m = id.match(/(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/);
     if (!m) continue;
-    if (`${m[3]}-${m[1]}-${m[2]}` !== dateStr) continue;
-    availHalfHours.add(parseInt(m[4]) * 2 + (parseInt(m[5]) >= 30 ? 1 : 0));
+    const pt = utcToLocalPT(new Date(Date.UTC(
+      parseInt(m[3]), parseInt(m[1]) - 1, parseInt(m[2]),
+      parseInt(m[4]), parseInt(m[5])
+    )));
+    if (pt.dateStr !== dateStr) continue;
+    availHalfHours.add(pt.h * 2 + (pt.mi >= 30 ? 1 : 0));
   }
 
   const slots = [];
@@ -204,7 +225,7 @@ async function main() {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  const output = { fetchedAt: new Date().toISOString(), days: {} };
+  const output = { fetchedAt: new Date().toISOString(), courtsFetchedAt: {}, days: {} };
 
   for (let i = 0; i < 8; i++) {
     const date = new Date(today);
@@ -221,6 +242,7 @@ async function main() {
       try {
         dayResult.presidio = await fetchPresidio(date);
         console.log(`  Presidio: ${dayResult.presidio.length} slots`);
+        if (!output.courtsFetchedAt.presidio) output.courtsFetchedAt.presidio = new Date().toISOString();
       } catch (e) {
         dayResult.presidioError = e.message;
         console.warn(`  Presidio error: ${e.message}`);
@@ -232,6 +254,7 @@ async function main() {
       try {
         dayResult.ggp = await fetchGoldenGate(date);
         console.log(`  GGP: ${dayResult.ggp.length} slots`);
+        if (!output.courtsFetchedAt.ggp) output.courtsFetchedAt.ggp = new Date().toISOString();
       } catch (e) {
         dayResult.ggpError = e.message;
         console.warn(`  GGP error: ${e.message}`);
@@ -243,6 +266,7 @@ async function main() {
       try {
         dayResult.menlo = await fetchMenlo(date);
         console.log(`  Menlo: ${dayResult.menlo.length} slots`);
+        if (!output.courtsFetchedAt.menlo) output.courtsFetchedAt.menlo = new Date().toISOString();
       } catch (e) {
         dayResult.menloError = e.message;
         console.warn(`  Menlo error: ${e.message}`);
