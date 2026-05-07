@@ -2,8 +2,7 @@ name: Fetch Court Availability
 
 on:
   schedule:
-    # 2:00 PM PT (PDT = UTC-7, so 21:00 UTC)
-    - cron: '0 21 * * *'
+    - cron: '0 * * * *'  # every hour
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 jobs:

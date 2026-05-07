@@ -5,13 +5,9 @@ const COURTS = {
     name: "Presidio",
     color: "presidio",
     bookUrl: "https://app.rec.us/locations/c2f20478-83d8-48c9-af3d-065d7ba22d60",
-    // preferred days + windows (used for live fallback)
     preferredDays: [0, 2, 4, 6],
-    getWindow(dow) {
-      if (dow === 2 || dow === 4) return { start: 17, end: 24 };
-      if (dow === 0 || dow === 6) return { start: 10, end: 24 };
-      return { start: 7, end: 22 };
-    },
+    // Show all available hours from open (7am) to close (10pm) every day
+    getWindow() { return { start: 7, end: 22 }; },
     fetch: livePresidio,
   },
   ggp: {
@@ -19,11 +15,8 @@ const COURTS = {
     color: "ggp",
     bookUrl: "https://app.courtreserve.com/Online/Reservations/Bookings/12465",
     preferredDays: [0, 2, 4, 6],
-    getWindow(dow) {
-      if (dow === 2 || dow === 4) return { start: 17, end: 24 };
-      if (dow === 0 || dow === 6) return { start: 10, end: 24 };
-      return { start: 7, end: 22 };
-    },
+    // CustomSchedulerId 16819 is the tennis-only scheduler (hard courts)
+    getWindow() { return { start: 7, end: 22 }; },
     fetch: liveGoldenGate,
   },
   menlo: {
@@ -212,8 +205,33 @@ async function liveGoldenGate(date) {
 async function liveMenloUnavailable() {
   throw new Error(
     "Menlo Park needs a server-side session to check (CSRF + cookie). " +
-    "Data updates automatically via GitHub Actions at 2pm — or tap the link to book manually."
+    "Data updates automatically via GitHub Actions every hour — or tap the link to book manually."
   );
+}
+
+// Merge consecutive slots per court into contiguous ranges.
+// e.g. [5-6 GGP, 6-7 GGP, 5-6 Presidio] → [5-7 GGP, 5-6 Presidio]
+function mergeSlots(slots) {
+  const byLabel = {};
+  for (const s of slots) {
+    if (!byLabel[s.label]) byLabel[s.label] = { color: s.color, blocks: [] };
+    byLabel[s.label].blocks.push(s);
+  }
+  const merged = [];
+  for (const [label, { color, blocks }] of Object.entries(byLabel)) {
+    blocks.sort((a, b) => a.startH - b.startH);
+    let cur = { ...blocks[0] };
+    for (let i = 1; i < blocks.length; i++) {
+      if (Math.abs(blocks[i].startH - cur.endH) < 0.02) {
+        cur.endH = blocks[i].endH; // extend range
+      } else {
+        merged.push(cur);
+        cur = { ...blocks[i] };
+      }
+    }
+    merged.push(cur);
+  }
+  return merged;
 }
 
 // ─── DOM refs ─────────────────────────────────────────────────────────────────
@@ -328,27 +346,30 @@ async function loadDay(date, dow) {
   errors.forEach(r => {
     const div = document.createElement("div");
     div.className = "error-box";
-    div.innerHTML = `<strong class="color-${r.color}">${r.name}:</strong> ${r.error}<br>
+    div.innerHTML = `<span class="court-tag color-${r.color}" style="margin-bottom:6px;display:inline-block">${r.name}</span> ${r.error}<br>
       <a href="${r.bookUrl}" target="_blank">Check / book manually →</a>`;
     resultsEl.appendChild(div);
   });
 
-  // Available slots
+  // Available slots — merge consecutive windows then group same range together
   if (allSlots.length > 0) {
     const hdr = document.createElement("div");
     hdr.className = "court-section-header";
-    hdr.textContent = "Available 1-hour slots";
+    hdr.textContent = "Available slots";
     resultsEl.appendChild(hdr);
 
-    // Group by time bucket
-    const byKey = {};
-    allSlots.forEach(s => {
+    // Merge consecutive slots per court (5-6 + 6-7 → 5-7)
+    const merged = mergeSlots(allSlots);
+
+    // Group courts that share the exact same time range onto one card
+    const byRange = {};
+    merged.forEach(s => {
       const k = `${s.startH}-${s.endH}`;
-      if (!byKey[k]) byKey[k] = { startH: s.startH, endH: s.endH, courts: [] };
-      byKey[k].courts.push(s);
+      if (!byRange[k]) byRange[k] = { startH: s.startH, endH: s.endH, courts: [] };
+      byRange[k].courts.push(s);
     });
 
-    Object.values(byKey).sort((a,b) => a.startH - b.startH).forEach(slot => {
+    Object.values(byRange).sort((a,b) => a.startH - b.startH).forEach(slot => {
       const card = document.createElement("div");
       card.className = "slot-card";
       card.innerHTML = `
