@@ -1,8 +1,9 @@
 {
-  "fetchedAt": "2026-05-07T16:54:29.566Z",
+  "fetchedAt": "2026-05-07T18:28:18.827Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-07T16:54:29.922Z",
-    "menlo": "2026-05-07T16:54:32.290Z"
+    "presidio": "2026-05-07T18:28:19.206Z",
+    "ggp": "2026-05-07T18:28:19.952Z",
+    "menlo": "2026-05-07T18:28:21.161Z"
   },
   "days": {
     "2026-05-07": {
@@ -33,23 +34,54 @@
           "label": "Presidio Court 4"
         }
       ],
-      "ggpError": "Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON",
-      "menlo": [
+      "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 8,
+          "endH": 9,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 9,
+          "endH": 10,
+          "label": "Golden Gate Park"
+        },
         {
           "startH": 10,
           "endH": 11,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Burgess Park"
+          "label": "Golden Gate Park"
         },
         {
           "startH": 11,
           "endH": 12,
-          "label": "Menlo: Burgess Park"
+          "label": "Golden Gate Park"
         },
+        {
+          "startH": 12,
+          "endH": 13,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 13,
+          "endH": 14,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 14,
+          "endH": 15,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 15,
+          "endH": 16,
+          "label": "Golden Gate Park"
+        }
+      ],
+      "menlo": [
         {
           "startH": 11.5,
           "endH": 12.5,
@@ -89,21 +121,6 @@
           "startH": 21,
           "endH": 22,
           "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Kelly Park"
         },
         {
           "startH": 11.5,
@@ -146,21 +163,6 @@
           "label": "Menlo: Kelly Park"
         },
         {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Menlo: Kelly Park"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Menlo: Nealon Park C1"
@@ -194,21 +196,6 @@
           "startH": 13.5,
           "endH": 14.5,
           "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Willow Oaks C1"
         },
         {
           "startH": 11.5,
@@ -244,21 +231,6 @@
           "startH": 21,
           "endH": 22,
           "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Willow Oaks C2"
         },
         {
           "startH": 13,
@@ -301,7 +273,18 @@
           "label": "Presidio Court 4"
         }
       ],
-      "ggpError": "Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON"
+      "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 8,
+          "endH": 9,
+          "label": "Golden Gate Park"
+        }
+      ]
     },
     "2026-05-10": {
       "presidio": [
@@ -321,7 +304,13 @@
           "label": "Presidio Court 4"
         }
       ],
-      "ggpError": "Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON"
+      "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        }
+      ]
     },
     "2026-05-11": {},
     "2026-05-12": {
@@ -352,7 +341,53 @@
           "label": "Presidio Court 4"
         }
       ],
-      "ggpError": "Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON"
+      "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 8,
+          "endH": 9,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 9,
+          "endH": 10,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 10,
+          "endH": 11,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 11,
+          "endH": 12,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 12,
+          "endH": 13,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 13,
+          "endH": 14,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 14,
+          "endH": 15,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 15,
+          "endH": 16,
+          "label": "Golden Gate Park"
+        }
+      ]
     },
     "2026-05-13": {
       "menlo": [
@@ -822,7 +857,7 @@
         },
         {
           "startH": 16.5,
-          "endH": 19.5,
+          "endH": 18,
           "label": "Presidio Court 3"
         },
         {
@@ -831,7 +866,53 @@
           "label": "Presidio Court 4"
         }
       ],
-      "ggpError": "Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON",
+      "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 8,
+          "endH": 9,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 9,
+          "endH": 10,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 10,
+          "endH": 11,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 11,
+          "endH": 12,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 12,
+          "endH": 13,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 13,
+          "endH": 14,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 14,
+          "endH": 15,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 15,
+          "endH": 16,
+          "label": "Golden Gate Park"
+        }
+      ],
       "menlo": [
         {
           "startH": 8,
