@@ -220,6 +220,42 @@
     .court-dot.color-ggp      { background: #2471a3; }
     .court-dot.color-menlo    { background: #1e8449; }
 
+    /* After-work toggle */
+    #afterwork-toggle {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      cursor: pointer;
+      margin-bottom: 14px;
+      user-select: none;
+      width: fit-content;
+    }
+    #afterwork-toggle input { display: none; }
+    .toggle-track {
+      width: 40px;
+      height: 22px;
+      background: #ccc;
+      border-radius: 11px;
+      position: relative;
+      flex-shrink: 0;
+      transition: background 0.2s;
+    }
+    .toggle-thumb {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 16px;
+      height: 16px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    }
+    #afterwork-cb:checked ~ .toggle-track { background: #2d6a2d; }
+    #afterwork-cb:checked ~ .toggle-track .toggle-thumb { transform: translateX(18px); }
+    .toggle-label { font-size: 0.82rem; font-weight: 600; color: #444; }
+    .toggle-hint { font-weight: 400; color: #888; }
+
     /* Text-color helpers used in error box labels */
     strong.color-presidio { color: #c0392b; }
     strong.color-ggp      { color: #2471a3; }
@@ -238,6 +274,13 @@
 <div id="main">
   <div id="day-label"></div>
   <div id="legend"></div>
+  <label id="afterwork-toggle">
+    <input type="checkbox" id="afterwork-cb">
+    <span class="toggle-track">
+      <span class="toggle-thumb"></span>
+    </span>
+    <span class="toggle-label">🌇 After work only <span class="toggle-hint">(5 PM+)</span></span>
+  </label>
   <div id="status">
     <p>Select a day above to check availability.</p>
   </div>
