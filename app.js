@@ -256,12 +256,21 @@ function mergeSlots(slots) {
 
 // ─── DOM refs ─────────────────────────────────────────────────────────────────
 
-const dayBar     = document.getElementById("day-bar");
-const statusEl   = document.getElementById("status");
-const resultsEl  = document.getElementById("results");
-const dayLabelEl = document.getElementById("day-label");
-const legendEl   = document.getElementById("legend");
-const cacheInfoEl = document.getElementById("cache-info");
+const dayBar      = document.getElementById("day-bar");
+const statusEl    = document.getElementById("status");
+const resultsEl   = document.getElementById("results");
+const dayLabelEl  = document.getElementById("day-label");
+const legendEl    = document.getElementById("legend");
+const afterworkCb = document.getElementById("afterwork-cb");
+
+// ─── After-work filter state ──────────────────────────────────────────────────
+// When on: only show slots that extend past 5 PM, trimmed to start at 5 PM.
+const AFTERWORK_HOUR = 17;
+let lastRenderArgs = null; // { allSlots, errors, notices, dow, date }
+
+afterworkCb.addEventListener("change", () => {
+  if (lastRenderArgs) renderResults(lastRenderArgs);
+});
 
 // ─── Build day pills (ALL 8 days, none greyed out) ───────────────────────────
 
@@ -348,6 +357,15 @@ async function loadDay(date, dow) {
   }));
 
   statusEl.style.display = "none";
+  lastRenderArgs = { allSlots, errors, notices, dow, date };
+  renderResults(lastRenderArgs);
+}
+
+// ─── Render results (called on load and on toggle change) ─────────────────────
+
+function renderResults({ allSlots, errors, notices, dow, date }) {
+  const afterWork = afterworkCb.checked;
+
   resultsEl.style.display = "";
   resultsEl.innerHTML = "";
 
@@ -364,17 +382,23 @@ async function loadDay(date, dow) {
     resultsEl.appendChild(div);
   });
 
-  // Available slots — merge consecutive windows then group same range together
-  if (allSlots.length > 0) {
+  // Merge consecutive slots per court (5-6 + 6-7 → 5-7)
+  let merged = mergeSlots(allSlots);
+
+  // After-work filter: keep only slots that extend past 5 PM; trim display start
+  if (afterWork) {
+    merged = merged
+      .filter(s => s.endH > AFTERWORK_HOUR)
+      .map(s => ({ ...s, startH: Math.max(s.startH, AFTERWORK_HOUR) }));
+  }
+
+  // Available slots — group courts that share the exact same time range onto one card
+  if (merged.length > 0) {
     const hdr = document.createElement("div");
     hdr.className = "court-section-header";
     hdr.textContent = "Available slots";
     resultsEl.appendChild(hdr);
 
-    // Merge consecutive slots per court (5-6 + 6-7 → 5-7)
-    const merged = mergeSlots(allSlots);
-
-    // Group courts that share the exact same time range onto one card
     const byRange = {};
     merged.forEach(s => {
       const k = `${s.startH}-${s.endH}`;
@@ -393,12 +417,13 @@ async function loadDay(date, dow) {
       resultsEl.appendChild(card);
     });
   } else if (errors.length === 0) {
-    // All courts checked, nothing available
     const div = document.createElement("div");
     div.className = "no-results";
-    div.textContent = notices.length
-      ? `No openings at ${notices.join(" or ")} during your preferred hours.`
-      : "No courts on schedule for this day — nothing to show.";
+    div.textContent = afterWork
+      ? "No courts available after 5 PM on this day."
+      : notices.length
+        ? `No openings at ${notices.join(" or ")} during your preferred hours.`
+        : "No courts on schedule for this day — nothing to show.";
     resultsEl.appendChild(div);
   }
 
