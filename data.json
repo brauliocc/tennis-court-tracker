@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-12T00:01:31.948Z",
+  "fetchedAt": "2026-05-12T04:37:50.578Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-12T00:01:32.157Z",
-    "ggp": "2026-05-12T00:01:32.788Z",
-    "menlo": "2026-05-12T00:01:33.626Z"
+    "presidio": "2026-05-12T04:37:50.935Z",
+    "ggp": "2026-05-12T04:37:51.741Z",
+    "menlo": "2026-05-12T04:37:53.197Z"
   },
   "days": {
     "2026-05-12": {
@@ -14,7 +14,7 @@
           "label": "Presidio Court 2"
         },
         {
-          "startH": 7.5,
+          "startH": 9,
           "endH": 16.5,
           "label": "Presidio Court 3"
         },
@@ -53,6 +53,16 @@
         {
           "startH": 11,
           "endH": 12,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 14,
+          "endH": 15,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 15,
+          "endH": 16,
           "label": "Golden Gate Park"
         }
       ]
@@ -460,6 +470,11 @@
         },
         {
           "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 10.5,
           "endH": 13.5,
           "label": "Presidio Court 3"
         },
@@ -488,11 +503,6 @@
         {
           "startH": 10,
           "endH": 11,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
           "label": "Golden Gate Park"
         },
         {
@@ -586,16 +596,6 @@
           "startH": 21,
           "endH": 22,
           "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Kelly Park"
         },
         {
           "startH": 9,
@@ -901,11 +901,6 @@
           "startH": 7.5,
           "endH": 9,
           "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 8.5,
-          "label": "Presidio Court 4"
         },
         {
           "startH": 17,
