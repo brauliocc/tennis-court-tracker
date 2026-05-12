@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-12T20:46:29.691Z",
+  "fetchedAt": "2026-05-12T22:14:39.560Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-12T20:46:29.858Z",
-    "ggp": "2026-05-12T20:46:30.660Z",
-    "menlo": "2026-05-12T20:46:31.364Z"
+    "presidio": "2026-05-12T22:14:39.828Z",
+    "ggp": "2026-05-12T22:14:40.890Z",
+    "menlo": "2026-05-12T22:14:42.138Z"
   },
   "days": {
     "2026-05-12": {
@@ -710,16 +710,6 @@
         {
           "startH": 9,
           "endH": 10,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 11.5,
-          "endH": 12.5,
           "label": "Menlo: Nealon Park C2"
         },
         {
