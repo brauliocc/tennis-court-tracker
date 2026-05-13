@@ -1,27 +1,17 @@
 {
-  "fetchedAt": "2026-05-13T20:50:37.696Z",
+  "fetchedAt": "2026-05-13T22:16:19.891Z",
   "courtsFetchedAt": {
-    "menlo": "2026-05-13T20:50:38.802Z",
-    "presidio": "2026-05-13T20:50:39.016Z",
-    "ggp": "2026-05-13T20:50:40.054Z"
+    "menlo": "2026-05-13T22:16:21.445Z",
+    "presidio": "2026-05-13T22:16:21.707Z",
+    "ggp": "2026-05-13T22:16:22.400Z"
   },
   "days": {
     "2026-05-13": {
       "menlo": [
         {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Kelly Park"
-        },
-        {
           "startH": 16,
           "endH": 17,
           "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Willow Oaks C2"
         }
       ]
     },
@@ -463,11 +453,6 @@
           "startH": 7.5,
           "endH": 16.5,
           "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 4"
         },
         {
           "startH": 10,
