@@ -1,23 +1,13 @@
 {
-  "fetchedAt": "2026-05-13T13:15:42.643Z",
+  "fetchedAt": "2026-05-13T16:22:55.524Z",
   "courtsFetchedAt": {
-    "menlo": "2026-05-13T13:15:47.962Z",
-    "presidio": "2026-05-13T13:15:48.299Z",
-    "ggp": "2026-05-13T13:15:48.965Z"
+    "menlo": "2026-05-13T16:22:56.456Z",
+    "presidio": "2026-05-13T16:22:56.595Z",
+    "ggp": "2026-05-13T16:22:57.276Z"
   },
   "days": {
     "2026-05-13": {
       "menlo": [
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Burgess Park"
-        },
         {
           "startH": 10.5,
           "endH": 11.5,
@@ -52,21 +42,6 @@
           "startH": 13.5,
           "endH": 14.5,
           "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Kelly Park"
         },
         {
           "startH": 9.5,
@@ -124,21 +99,6 @@
           "label": "Menlo: Kelly Park"
         },
         {
-          "startH": 8,
-          "endH": 9,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
           "startH": 9.5,
           "endH": 10.5,
           "label": "Menlo: Nealon Park C1"
@@ -189,21 +149,6 @@
           "label": "Menlo: Nealon Park C1"
         },
         {
-          "startH": 8,
-          "endH": 9,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
           "startH": 9.5,
           "endH": 10.5,
           "label": "Menlo: Nealon Park C2"
@@ -247,21 +192,6 @@
           "startH": 13.5,
           "endH": 14.5,
           "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Willow Oaks C1"
         },
         {
           "startH": 9.5,
