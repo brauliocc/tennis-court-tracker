@@ -1,53 +1,13 @@
 {
-  "fetchedAt": "2026-05-13T18:58:28.298Z",
+  "fetchedAt": "2026-05-13T20:50:37.696Z",
   "courtsFetchedAt": {
-    "menlo": "2026-05-13T18:58:30.767Z",
-    "presidio": "2026-05-13T18:58:31.165Z",
-    "ggp": "2026-05-13T18:58:32.193Z"
+    "menlo": "2026-05-13T20:50:38.802Z",
+    "presidio": "2026-05-13T20:50:39.016Z",
+    "ggp": "2026-05-13T20:50:40.054Z"
   },
   "days": {
     "2026-05-13": {
       "menlo": [
-        {
-          "startH": 12,
-          "endH": 13,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 12.5,
-          "endH": 13.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 12,
-          "endH": 13,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 12.5,
-          "endH": 13.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Kelly Park"
-        },
         {
           "startH": 14,
           "endH": 15,
@@ -57,86 +17,6 @@
           "startH": 16,
           "endH": 17,
           "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 12,
-          "endH": 13,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 12.5,
-          "endH": 13.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 12,
-          "endH": 13,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 12.5,
-          "endH": 13.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 12,
-          "endH": 13,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 12.5,
-          "endH": 13.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 12,
-          "endH": 13,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 12.5,
-          "endH": 13.5,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Willow Oaks C2"
         },
         {
           "startH": 14,
@@ -219,31 +99,6 @@
         {
           "startH": 9.5,
           "endH": 10.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 11.5,
-          "endH": 12.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 12,
-          "endH": 13,
           "label": "Menlo: Burgess Park"
         },
         {
