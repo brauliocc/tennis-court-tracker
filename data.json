@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-18T18:54:07.778Z",
+  "fetchedAt": "2026-05-18T20:27:26.193Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-18T18:54:08.272Z",
-    "ggp": "2026-05-18T18:54:08.899Z",
-    "menlo": "2026-05-18T18:54:10.984Z"
+    "presidio": "2026-05-18T20:27:26.648Z",
+    "ggp": "2026-05-18T20:27:27.393Z",
+    "menlo": "2026-05-18T20:27:29.237Z"
   },
   "days": {
     "2026-05-18": {},
@@ -143,21 +143,6 @@
         {
           "startH": 13.5,
           "endH": 14.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 19.5,
-          "endH": 20.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
           "label": "Menlo: Burgess Park"
         },
         {
@@ -534,11 +519,6 @@
         {
           "startH": 8,
           "endH": 9,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
           "label": "Golden Gate Park"
         },
         {
