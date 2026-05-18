@@ -1,55 +1,14 @@
 {
-  "fetchedAt": "2026-05-17T23:02:26.012Z",
+  "fetchedAt": "2026-05-18T04:01:42.565Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-17T23:02:26.302Z",
-    "ggp": "2026-05-17T23:02:27.457Z",
-    "menlo": "2026-05-17T23:02:32.379Z"
+    "presidio": "2026-05-18T04:01:42.936Z",
+    "ggp": "2026-05-18T04:01:44.035Z",
+    "menlo": "2026-05-18T04:01:48.212Z"
   },
   "days": {
-    "2026-05-17": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        }
-      ],
-      "ggp": [
-        {
-          "startH": 7,
-          "endH": 8,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Golden Gate Park"
-        }
-      ]
-    },
     "2026-05-18": {},
     "2026-05-19": {
       "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 1"
-        },
         {
           "startH": 7.5,
           "endH": 9,
@@ -611,11 +570,6 @@
           "startH": 15,
           "endH": 16,
           "label": "Golden Gate Park"
-        },
-        {
-          "startH": 16,
-          "endH": 17,
-          "label": "Golden Gate Park"
         }
       ],
       "menlo": [
@@ -1157,7 +1111,7 @@
         },
         {
           "startH": 7.5,
-          "endH": 13.5,
+          "endH": 12,
           "label": "Presidio Court 3"
         },
         {
@@ -1183,8 +1137,8 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 12,
-          "endH": 13,
+          "startH": 9,
+          "endH": 10,
           "label": "Golden Gate Park"
         },
         {
@@ -1198,6 +1152,7 @@
           "label": "Golden Gate Park"
         }
       ]
-    }
+    },
+    "2026-05-25": {}
   }
 }
