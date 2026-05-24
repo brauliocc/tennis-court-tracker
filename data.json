@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-24T19:37:02.125Z",
+  "fetchedAt": "2026-05-24T21:00:55.504Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-24T19:37:02.610Z",
-    "ggp": "2026-05-24T19:37:03.306Z",
-    "menlo": "2026-05-24T19:37:06.575Z"
+    "presidio": "2026-05-24T21:00:55.820Z",
+    "ggp": "2026-05-24T21:00:56.844Z",
+    "menlo": "2026-05-24T21:00:59.711Z"
   },
   "days": {
     "2026-05-24": {
@@ -51,7 +51,7 @@
         },
         {
           "startH": 10,
-          "endH": 19.5,
+          "endH": 18,
           "label": "Presidio Court 4"
         }
       ],
@@ -233,21 +233,6 @@
         {
           "startH": 8.5,
           "endH": 9.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 9.5,
-          "endH": 10.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
           "label": "Menlo: Nealon Park C1"
         },
         {
