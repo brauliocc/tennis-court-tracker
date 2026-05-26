@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-26T18:30:06.105Z",
+  "fetchedAt": "2026-05-26T20:57:03.973Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-26T18:30:06.373Z",
-    "ggp": "2026-05-26T18:30:07.077Z",
-    "menlo": "2026-05-26T18:30:08.251Z"
+    "presidio": "2026-05-26T20:57:04.295Z",
+    "ggp": "2026-05-26T20:57:05.480Z",
+    "menlo": "2026-05-26T20:57:07.044Z"
   },
   "days": {
     "2026-05-26": {
@@ -26,11 +26,6 @@
         {
           "startH": 10.5,
           "endH": 13.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 15,
-          "endH": 16.5,
           "label": "Presidio Court 3"
         },
         {
@@ -78,6 +73,11 @@
         {
           "startH": 16,
           "endH": 17,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 19,
+          "endH": 20,
           "label": "Golden Gate Park"
         }
       ]
@@ -355,31 +355,6 @@
           "label": "Menlo: Nealon Park C2"
         },
         {
-          "startH": 15.5,
-          "endH": 16.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 16,
-          "endH": 17,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 16.5,
-          "endH": 17.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 17,
-          "endH": 18,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 17.5,
-          "endH": 18.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
           "startH": 20.5,
           "endH": 21.5,
           "label": "Menlo: Nealon Park C2"
@@ -472,21 +447,6 @@
         {
           "startH": 9.5,
           "endH": 10.5,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
           "label": "Menlo: Willow Oaks C2"
         },
         {
