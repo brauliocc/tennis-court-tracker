@@ -1,19 +1,14 @@
 {
-  "fetchedAt": "2026-05-29T03:59:50.941Z",
+  "fetchedAt": "2026-05-29T08:06:39.896Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-29T03:59:51.134Z",
-    "ggp": "2026-05-29T03:59:51.983Z",
-    "menlo": "2026-05-29T03:59:54.251Z"
+    "presidio": "2026-05-29T08:06:40.289Z",
+    "ggp": "2026-05-29T08:06:41.005Z",
+    "menlo": "2026-05-29T08:06:46.684Z"
   },
   "days": {
     "2026-05-29": {},
     "2026-05-30": {
       "presidio": [
-        {
-          "startH": 13.5,
-          "endH": 15,
-          "label": "Presidio Court 3"
-        },
         {
           "startH": 7.5,
           "endH": 8.5,
@@ -30,16 +25,16 @@
           "startH": 7,
           "endH": 8,
           "label": "Golden Gate Park"
+        },
+        {
+          "startH": 21,
+          "endH": 22,
+          "label": "Golden Gate Park"
         }
       ]
     },
     "2026-05-31": {
       "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 3"
-        },
         {
           "startH": 7.5,
           "endH": 9,
@@ -456,31 +451,6 @@
         {
           "startH": 9,
           "endH": 10,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 9.5,
-          "endH": 10.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 11.5,
-          "endH": 12.5,
           "label": "Menlo: Willow Oaks C1"
         },
         {
