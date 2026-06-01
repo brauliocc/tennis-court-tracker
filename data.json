@@ -1,26 +1,11 @@
 {
-  "fetchedAt": "2026-05-31T23:03:21.727Z",
+  "fetchedAt": "2026-06-01T04:25:45.601Z",
   "courtsFetchedAt": {
-    "presidio": "2026-05-31T23:03:22.102Z",
-    "ggp": "2026-05-31T23:03:22.712Z",
-    "menlo": "2026-05-31T23:03:25.014Z"
+    "presidio": "2026-06-01T04:25:45.837Z",
+    "ggp": "2026-06-01T04:25:46.565Z",
+    "menlo": "2026-06-01T04:25:47.589Z"
   },
   "days": {
-    "2026-05-31": {
-      "presidio": [],
-      "ggp": [
-        {
-          "startH": 7,
-          "endH": 8,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Golden Gate Park"
-        }
-      ]
-    },
     "2026-06-01": {},
     "2026-06-02": {
       "presidio": [
@@ -36,7 +21,7 @@
         },
         {
           "startH": 7.5,
-          "endH": 18,
+          "endH": 16.5,
           "label": "Presidio Court 3"
         },
         {
@@ -396,16 +381,6 @@
           "label": "Menlo: Willow Oaks C1"
         },
         {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Menlo: Willow Oaks C1"
@@ -473,21 +448,6 @@
         {
           "startH": 8.5,
           "endH": 9.5,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 9.5,
-          "endH": 10.5,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
           "label": "Menlo: Willow Oaks C2"
         },
         {
@@ -1207,16 +1167,12 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 20,
-          "endH": 21,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 21,
           "endH": 22,
           "label": "Golden Gate Park"
         }
       ]
-    }
+    },
+    "2026-06-08": {}
   }
 }
