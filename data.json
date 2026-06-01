@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-01T16:40:40.923Z",
+  "fetchedAt": "2026-06-01T20:57:18.906Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-01T16:40:41.081Z",
-    "ggp": "2026-06-01T16:40:41.656Z",
-    "menlo": "2026-06-01T16:40:42.515Z"
+    "presidio": "2026-06-01T20:57:19.298Z",
+    "ggp": "2026-06-01T20:57:20.039Z",
+    "menlo": "2026-06-01T20:57:22.288Z"
   },
   "days": {
     "2026-06-01": {},
@@ -131,26 +131,6 @@
           "label": "Menlo: Burgess Park"
         },
         {
-          "startH": 19.5,
-          "endH": 20.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Menlo: Burgess Park"
-        },
-        {
           "startH": 8,
           "endH": 9,
           "label": "Menlo: Kelly Park"
@@ -253,16 +233,6 @@
         {
           "startH": 13,
           "endH": 14,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
           "label": "Menlo: Nealon Park C1"
         },
         {
@@ -426,21 +396,6 @@
           "label": "Menlo: Willow Oaks C1"
         },
         {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
           "startH": 8,
           "endH": 9,
           "label": "Menlo: Willow Oaks C2"
@@ -532,8 +487,8 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 10,
-          "endH": 11,
+          "startH": 9,
+          "endH": 10,
           "label": "Golden Gate Park"
         },
         {
@@ -1053,11 +1008,6 @@
     "2026-06-05": {},
     "2026-06-06": {
       "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
         {
           "startH": 18,
           "endH": 19.5,
