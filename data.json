@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-03T21:52:39.866Z",
+  "fetchedAt": "2026-06-03T23:47:08.659Z",
   "courtsFetchedAt": {
-    "menlo": "2026-06-03T21:52:41.128Z",
-    "presidio": "2026-06-03T21:52:41.364Z",
-    "ggp": "2026-06-03T21:52:41.985Z"
+    "menlo": "2026-06-03T23:47:09.772Z",
+    "presidio": "2026-06-03T23:47:09.923Z",
+    "ggp": "2026-06-03T23:47:10.720Z"
   },
   "days": {
     "2026-06-03": {
@@ -17,16 +17,6 @@
           "startH": 21,
           "endH": 22,
           "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 15.5,
-          "endH": 16.5,
-          "label": "Menlo: Willow Oaks C1"
         }
       ]
     },
@@ -607,6 +597,11 @@
         {
           "startH": 7,
           "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 19,
+          "endH": 20,
           "label": "Golden Gate Park"
         },
         {
