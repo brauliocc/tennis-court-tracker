@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-04T15:35:45.548Z",
+  "fetchedAt": "2026-06-04T18:21:36.273Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-04T15:35:45.968Z",
-    "ggp": "2026-06-04T15:35:47.130Z",
-    "menlo": "2026-06-04T15:35:49.023Z"
+    "presidio": "2026-06-04T18:21:36.703Z",
+    "ggp": "2026-06-04T18:21:37.339Z",
+    "menlo": "2026-06-04T18:21:39.168Z"
   },
   "days": {
     "2026-06-04": {
@@ -51,6 +51,11 @@
           "label": "Golden Gate Park"
         },
         {
+          "startH": 9,
+          "endH": 10,
+          "label": "Golden Gate Park"
+        },
+        {
           "startH": 10,
           "endH": 11,
           "label": "Golden Gate Park"
@@ -58,11 +63,6 @@
         {
           "startH": 11,
           "endH": 12,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 12,
-          "endH": 13,
           "label": "Golden Gate Park"
         },
         {
@@ -77,16 +77,6 @@
         }
       ],
       "menlo": [
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Burgess Park"
-        },
         {
           "startH": 11.5,
           "endH": 12.5,
@@ -143,31 +133,6 @@
           "label": "Menlo: Burgess Park"
         },
         {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 9.5,
-          "endH": 10.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Kelly Park"
-        },
-        {
           "startH": 11.5,
           "endH": 12.5,
           "label": "Menlo: Kelly Park"
@@ -208,11 +173,6 @@
           "label": "Menlo: Kelly Park"
         },
         {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Menlo: Nealon Park C1"
@@ -248,31 +208,6 @@
           "label": "Menlo: Nealon Park C1"
         },
         {
-          "startH": 9,
-          "endH": 10,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 9.5,
-          "endH": 10.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
           "startH": 11.5,
           "endH": 12.5,
           "label": "Menlo: Nealon Park C2"
@@ -306,21 +241,6 @@
           "startH": 17,
           "endH": 18,
           "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Willow Oaks C1"
         },
         {
           "startH": 11.5,
@@ -460,11 +380,6 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 9,
-          "endH": 10,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 21,
           "endH": 22,
           "label": "Golden Gate Park"
@@ -496,8 +411,8 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 21,
-          "endH": 22,
+          "startH": 11,
+          "endH": 12,
           "label": "Golden Gate Park"
         }
       ]
@@ -943,11 +858,6 @@
         {
           "startH": 7.5,
           "endH": 16.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 18,
-          "endH": 19.5,
           "label": "Presidio Court 3"
         },
         {
