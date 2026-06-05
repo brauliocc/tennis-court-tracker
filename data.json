@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-05T18:03:10.263Z",
+  "fetchedAt": "2026-06-05T20:48:46.728Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-05T18:03:10.549Z",
-    "ggp": "2026-06-05T18:03:11.193Z",
-    "menlo": "2026-06-05T18:03:13.970Z"
+    "presidio": "2026-06-05T20:48:47.028Z",
+    "ggp": "2026-06-05T20:48:47.665Z",
+    "menlo": "2026-06-05T20:48:50.621Z"
   },
   "days": {
     "2026-06-05": {},
@@ -27,13 +27,18 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 9,
-          "endH": 10,
+          "startH": 19,
+          "endH": 20,
           "label": "Golden Gate Park"
         },
         {
-          "startH": 19,
-          "endH": 20,
+          "startH": 20,
+          "endH": 21,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 21,
+          "endH": 22,
           "label": "Golden Gate Park"
         }
       ]
@@ -41,18 +46,8 @@
     "2026-06-07": {
       "presidio": [
         {
-          "startH": 7.5,
-          "endH": 9.5,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 10.5,
-          "endH": 15,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 18,
-          "endH": 19.5,
+          "startH": 12,
+          "endH": 13.5,
           "label": "Presidio Court 4"
         }
       ],
@@ -60,11 +55,6 @@
         {
           "startH": 7,
           "endH": 8,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
           "label": "Golden Gate Park"
         }
       ]
@@ -311,16 +301,6 @@
         {
           "startH": 14,
           "endH": 15,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 16,
-          "endH": 17,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 16.5,
-          "endH": 17.5,
           "label": "Menlo: Nealon Park C2"
         },
         {
@@ -795,16 +775,6 @@
           "startH": 21,
           "endH": 22,
           "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 9.5,
-          "endH": 10.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 10,
-          "endH": 11,
-          "label": "Menlo: Nealon Park C2"
         },
         {
           "startH": 12,
