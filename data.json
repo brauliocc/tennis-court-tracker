@@ -1,13 +1,19 @@
 {
-  "fetchedAt": "2026-06-05T22:17:18.302Z",
+  "fetchedAt": "2026-06-06T00:10:40.993Z",
   "courtsFetchedAt": {
-    "ggp": "2026-06-05T22:17:19.315Z",
-    "menlo": "2026-06-05T22:17:22.873Z"
+    "presidio": "2026-06-06T00:10:41.391Z",
+    "ggp": "2026-06-06T00:10:42.025Z",
+    "menlo": "2026-06-06T00:10:45.823Z"
   },
   "days": {
-    "2026-06-05": {},
     "2026-06-06": {
-      "presidioError": "rec.us HTTP 403",
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 8.5,
+          "label": "Presidio Court 4"
+        }
+      ],
       "ggp": [
         {
           "startH": 7,
@@ -32,7 +38,7 @@
       ]
     },
     "2026-06-07": {
-      "presidioError": "rec.us HTTP 403",
+      "presidio": [],
       "ggp": [
         {
           "startH": 7,
@@ -43,7 +49,33 @@
     },
     "2026-06-08": {},
     "2026-06-09": {
-      "presidioError": "rec.us HTTP 403",
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 2"
+        },
+        {
+          "startH": 7.5,
+          "endH": 12,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 13.5,
+          "endH": 16.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 7.5,
+          "endH": 8.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 9.5,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
       "ggp": [
         {
           "startH": 7,
@@ -63,11 +95,6 @@
         {
           "startH": 10,
           "endH": 11,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
           "label": "Golden Gate Park"
         },
         {
@@ -235,33 +262,8 @@
           "label": "Menlo: Kelly Park"
         },
         {
-          "startH": 19.5,
-          "endH": 20.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
           "startH": 14,
           "endH": 15,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 18.5,
-          "endH": 19.5,
           "label": "Menlo: Nealon Park C2"
         },
         {
@@ -335,31 +337,6 @@
           "label": "Menlo: Willow Oaks C1"
         },
         {
-          "startH": 19,
-          "endH": 20,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 19.5,
-          "endH": 20.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
           "startH": 13,
           "endH": 14,
           "label": "Menlo: Willow Oaks C2"
@@ -397,7 +374,33 @@
       ]
     },
     "2026-06-11": {
-      "presidioError": "rec.us HTTP 403",
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 1"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 2"
+        },
+        {
+          "startH": 7.5,
+          "endH": 16.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 7.5,
+          "endH": 17,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 18,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
       "ggp": [
         {
           "startH": 7,
@@ -687,26 +690,6 @@
           "label": "Menlo: Nealon Park C1"
         },
         {
-          "startH": 19.5,
-          "endH": 20.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Menlo: Nealon Park C2"
@@ -739,36 +722,6 @@
         {
           "startH": 16.5,
           "endH": 17.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 18.5,
-          "endH": 19.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 19,
-          "endH": 20,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 19.5,
-          "endH": 20.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
           "label": "Menlo: Nealon Park C2"
         },
         {
@@ -978,6 +931,67 @@
         }
       ]
     },
-    "2026-06-12": {}
+    "2026-06-12": {},
+    "2026-06-13": {
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 1"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 2"
+        },
+        {
+          "startH": 7.5,
+          "endH": 19.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 7.5,
+          "endH": 8.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 14,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
+      "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 8,
+          "endH": 9,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 13,
+          "endH": 14,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 19,
+          "endH": 20,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 20,
+          "endH": 21,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 21,
+          "endH": 22,
+          "label": "Golden Gate Park"
+        }
+      ]
+    }
   }
 }
