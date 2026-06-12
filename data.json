@@ -1,13 +1,35 @@
 {
-  "fetchedAt": "2026-06-12T09:00:50.859Z",
+  "fetchedAt": "2026-06-12T12:55:34.101Z",
   "courtsFetchedAt": {
-    "ggp": "2026-06-12T09:00:51.827Z",
-    "menlo": "2026-06-12T09:00:57.515Z"
+    "presidio": "2026-06-12T12:55:34.279Z",
+    "ggp": "2026-06-12T12:55:35.014Z",
+    "menlo": "2026-06-12T12:55:42.312Z"
   },
   "days": {
     "2026-06-12": {},
     "2026-06-13": {
-      "presidioError": "rec.us HTTP 403",
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 8.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 12,
+          "endH": 13,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 14,
+          "endH": 15,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 18,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
       "ggp": [
         {
           "startH": 7,
@@ -22,7 +44,23 @@
       ]
     },
     "2026-06-14": {
-      "presidioError": "rec.us HTTP 403",
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 14,
+          "endH": 15,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 18,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
       "ggp": [
         {
           "startH": 7,
@@ -33,7 +71,38 @@
     },
     "2026-06-15": {},
     "2026-06-16": {
-      "presidioError": "rec.us HTTP 403",
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 1"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 2"
+        },
+        {
+          "startH": 7.5,
+          "endH": 18,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 10,
+          "endH": 16,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 18,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
       "ggp": [
         {
           "startH": 7,
@@ -552,7 +621,43 @@
       ]
     },
     "2026-06-18": {
-      "presidioError": "rec.us HTTP 403",
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 1"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 2"
+        },
+        {
+          "startH": 7.5,
+          "endH": 10.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 12,
+          "endH": 18,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 7.5,
+          "endH": 10.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 11.5,
+          "endH": 17,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 18,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
       "ggp": [
         {
           "startH": 7,
