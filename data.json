@@ -1,12 +1,11 @@
 {
-  "fetchedAt": "2026-06-12T23:21:15.942Z",
+  "fetchedAt": "2026-06-13T04:08:36.436Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-12T23:21:16.439Z",
-    "ggp": "2026-06-12T23:21:17.116Z",
-    "menlo": "2026-06-12T23:21:20.903Z"
+    "presidio": "2026-06-13T04:08:36.840Z",
+    "ggp": "2026-06-13T04:08:37.479Z",
+    "menlo": "2026-06-13T04:08:40.368Z"
   },
   "days": {
-    "2026-06-12": {},
     "2026-06-13": {
       "presidio": [
         {
@@ -32,8 +31,8 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 15,
-          "endH": 16,
+          "startH": 20,
+          "endH": 21,
           "label": "Golden Gate Park"
         },
         {
@@ -46,11 +45,6 @@
     "2026-06-14": {
       "presidio": [
         {
-          "startH": 16.5,
-          "endH": 18,
-          "label": "Presidio Court 3"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Presidio Court 4"
@@ -59,17 +53,17 @@
           "startH": 14,
           "endH": 15,
           "label": "Presidio Court 4"
-        },
-        {
-          "startH": 18,
-          "endH": 19.5,
-          "label": "Presidio Court 4"
         }
       ],
       "ggp": [
         {
           "startH": 7,
           "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 21,
+          "endH": 22,
           "label": "Golden Gate Park"
         }
       ]
@@ -249,31 +243,6 @@
           "label": "Menlo: Burgess Park"
         },
         {
-          "startH": 16.5,
-          "endH": 17.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 17,
-          "endH": 18,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 17.5,
-          "endH": 18.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 18,
-          "endH": 19,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 18.5,
-          "endH": 19.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
           "startH": 19,
           "endH": 20,
           "label": "Menlo: Burgess Park"
@@ -427,16 +396,6 @@
           "startH": 17.5,
           "endH": 18.5,
           "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 12.5,
-          "endH": 13.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Nealon Park C2"
         },
         {
           "startH": 13.5,
@@ -703,11 +662,6 @@
           "startH": 15,
           "endH": 16,
           "label": "Golden Gate Park"
-        },
-        {
-          "startH": 16,
-          "endH": 17,
-          "label": "Golden Gate Park"
         }
       ],
       "menlo": [
@@ -1117,31 +1071,6 @@
           "label": "Menlo: Willow Oaks C1"
         },
         {
-          "startH": 16.5,
-          "endH": 17.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 17,
-          "endH": 18,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 17.5,
-          "endH": 18.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 18,
-          "endH": 19,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 18.5,
-          "endH": 19.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
           "startH": 19,
           "endH": 20,
           "label": "Menlo: Willow Oaks C1"
@@ -1198,6 +1127,102 @@
         }
       ]
     },
-    "2026-06-19": {}
+    "2026-06-19": {},
+    "2026-06-20": {
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 1"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 2"
+        },
+        {
+          "startH": 7.5,
+          "endH": 19.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 7.5,
+          "endH": 8.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 15,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
+      "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 8,
+          "endH": 9,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 9,
+          "endH": 10,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 12,
+          "endH": 13,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 13,
+          "endH": 14,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 14,
+          "endH": 15,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 15,
+          "endH": 16,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 16,
+          "endH": 17,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 17,
+          "endH": 18,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 18,
+          "endH": 19,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 19,
+          "endH": 20,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 20,
+          "endH": 21,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 21,
+          "endH": 22,
+          "label": "Golden Gate Park"
+        }
+      ]
+    }
   }
 }
