@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-13T11:17:28.506Z",
+  "fetchedAt": "2026-06-13T14:07:19.740Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-13T11:17:28.848Z",
-    "ggp": "2026-06-13T11:17:29.500Z",
-    "menlo": "2026-06-13T11:17:32.710Z"
+    "presidio": "2026-06-13T14:07:20.163Z",
+    "ggp": "2026-06-13T14:07:20.947Z",
+    "menlo": "2026-06-13T14:07:25.076Z"
   },
   "days": {
     "2026-06-13": {
@@ -36,11 +36,6 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 11,
-          "endH": 12,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Golden Gate Park"
@@ -53,11 +48,6 @@
         {
           "startH": 14,
           "endH": 15,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 17,
-          "endH": 18,
           "label": "Golden Gate Park"
         },
         {
