@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-14T18:16:23.528Z",
+  "fetchedAt": "2026-06-14T20:20:56.145Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-14T18:16:23.918Z",
-    "ggp": "2026-06-14T18:16:24.569Z",
-    "menlo": "2026-06-14T18:16:26.979Z"
+    "presidio": "2026-06-14T20:20:56.553Z",
+    "ggp": "2026-06-14T20:20:57.922Z",
+    "menlo": "2026-06-14T20:21:01.036Z"
   },
   "days": {
     "2026-06-14": {
@@ -629,21 +629,6 @@
           "label": "Menlo: Burgess Park"
         },
         {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 11.5,
-          "endH": 12.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Menlo: Burgess Park"
@@ -826,21 +811,6 @@
         {
           "startH": 14,
           "endH": 15,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 15.5,
-          "endH": 16.5,
           "label": "Menlo: Nealon Park C1"
         },
         {
