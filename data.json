@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-18T19:32:27.236Z",
+  "fetchedAt": "2026-06-18T22:14:12.462Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-18T19:32:27.489Z",
-    "ggp": "2026-06-18T19:32:28.530Z",
-    "menlo": "2026-06-18T19:32:29.901Z"
+    "presidio": "2026-06-18T22:14:12.633Z",
+    "ggp": "2026-06-18T22:14:13.532Z",
+    "menlo": "2026-06-18T22:14:14.562Z"
   },
   "days": {
     "2026-06-18": {
@@ -71,11 +71,6 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 14,
-          "endH": 15,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 15,
           "endH": 16,
           "label": "Golden Gate Park"
@@ -98,31 +93,6 @@
       ],
       "menlo": [
         {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Burgess Park"
-        },
-        {
           "startH": 15.5,
           "endH": 16.5,
           "label": "Menlo: Burgess Park"
@@ -131,31 +101,6 @@
           "startH": 16,
           "endH": 17,
           "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Kelly Park"
         },
         {
           "startH": 15.5,
@@ -176,21 +121,6 @@
           "startH": 17,
           "endH": 18,
           "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Nealon Park C1"
         },
         {
           "startH": 16,
@@ -213,31 +143,6 @@
           "label": "Menlo: Nealon Park C1"
         },
         {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
           "startH": 15.5,
           "endH": 16.5,
           "label": "Menlo: Nealon Park C2"
@@ -253,31 +158,6 @@
           "label": "Menlo: Nealon Park C2"
         },
         {
-          "startH": 13,
-          "endH": 14,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 13.5,
-          "endH": 14.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
           "startH": 15.5,
           "endH": 16.5,
           "label": "Menlo: Willow Oaks C1"
@@ -286,21 +166,6 @@
           "startH": 16,
           "endH": 17,
           "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Willow Oaks C2"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Willow Oaks C2"
         },
         {
           "startH": 15.5,
@@ -329,7 +194,7 @@
         },
         {
           "startH": 11,
-          "endH": 13.5,
+          "endH": 12,
           "label": "Presidio Court 4"
         },
         {
@@ -342,16 +207,6 @@
         {
           "startH": 7,
           "endH": 8,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
           "label": "Golden Gate Park"
         },
         {
@@ -408,6 +263,16 @@
         {
           "startH": 14,
           "endH": 15,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 18,
+          "endH": 19,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 19,
+          "endH": 20,
           "label": "Golden Gate Park"
         },
         {
@@ -1017,21 +882,6 @@
         {
           "startH": 10,
           "endH": 11,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 10.5,
-          "endH": 11.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 11.5,
-          "endH": 12.5,
           "label": "Menlo: Burgess Park"
         },
         {
