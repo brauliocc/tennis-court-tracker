@@ -1,31 +1,11 @@
 {
-  "fetchedAt": "2026-06-21T23:18:18.254Z",
+  "fetchedAt": "2026-06-22T04:49:05.405Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-21T23:18:18.535Z",
-    "ggp": "2026-06-21T23:18:19.240Z",
-    "menlo": "2026-06-21T23:18:20.989Z"
+    "presidio": "2026-06-22T04:49:05.769Z",
+    "ggp": "2026-06-22T04:49:06.674Z",
+    "menlo": "2026-06-22T04:49:08.187Z"
   },
   "days": {
-    "2026-06-21": {
-      "presidio": [],
-      "ggp": [
-        {
-          "startH": 7,
-          "endH": 8,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Golden Gate Park"
-        }
-      ]
-    },
     "2026-06-22": {},
     "2026-06-23": {
       "presidio": [
@@ -84,11 +64,6 @@
         {
           "startH": 15,
           "endH": 16,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 16,
-          "endH": 17,
           "label": "Golden Gate Park"
         }
       ]
@@ -864,26 +839,6 @@
           "label": "Menlo: Willow Oaks C1"
         },
         {
-          "startH": 19.5,
-          "endH": 20.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
           "startH": 12.5,
           "endH": 13.5,
           "label": "Menlo: Willow Oaks C2"
@@ -964,11 +919,6 @@
           "label": "Presidio Court 2"
         },
         {
-          "startH": 13.5,
-          "endH": 15,
-          "label": "Presidio Court 3"
-        },
-        {
           "startH": 18,
           "endH": 19.5,
           "label": "Presidio Court 3"
@@ -996,11 +946,6 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 20,
-          "endH": 21,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 21,
           "endH": 22,
           "label": "Golden Gate Park"
@@ -1025,7 +970,7 @@
           "label": "Presidio Court 3"
         },
         {
-          "startH": 18,
+          "startH": 16.5,
           "endH": 19.5,
           "label": "Presidio Court 3"
         },
@@ -1062,6 +1007,7 @@
           "label": "Golden Gate Park"
         }
       ]
-    }
+    },
+    "2026-06-29": {}
   }
 }
