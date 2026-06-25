@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-25T20:59:27.982Z",
+  "fetchedAt": "2026-06-25T22:40:04.062Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-25T20:59:28.159Z",
-    "ggp": "2026-06-25T20:59:29.473Z",
-    "menlo": "2026-06-25T20:59:30.548Z"
+    "presidio": "2026-06-25T22:40:04.428Z",
+    "ggp": "2026-06-25T22:40:05.085Z",
+    "menlo": "2026-06-25T22:40:06.694Z"
   },
   "days": {
     "2026-06-25": {
@@ -73,26 +73,6 @@
       ],
       "menlo": [
         {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 15.5,
-          "endH": 16.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
           "startH": 16,
           "endH": 17,
           "label": "Menlo: Burgess Park"
@@ -101,26 +81,6 @@
           "startH": 16.5,
           "endH": 17.5,
           "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 15.5,
-          "endH": 16.5,
-          "label": "Menlo: Kelly Park"
         },
         {
           "startH": 16,
@@ -138,54 +98,14 @@
           "label": "Menlo: Kelly Park"
         },
         {
-          "startH": 20,
-          "endH": 21,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 20.5,
-          "endH": 21.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
           "startH": 21,
           "endH": 22,
           "label": "Menlo: Kelly Park"
         },
         {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Nealon Park C1"
-        },
-        {
           "startH": 16.5,
           "endH": 17.5,
           "label": "Menlo: Nealon Park C1"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Nealon Park C2"
-        },
-        {
-          "startH": 15.5,
-          "endH": 16.5,
-          "label": "Menlo: Nealon Park C2"
         },
         {
           "startH": 16,
@@ -198,26 +118,6 @@
           "label": "Menlo: Nealon Park C2"
         },
         {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 14.5,
-          "endH": 15.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 15.5,
-          "endH": 16.5,
-          "label": "Menlo: Willow Oaks C1"
-        },
-        {
           "startH": 16,
           "endH": 17,
           "label": "Menlo: Willow Oaks C1"
@@ -226,11 +126,6 @@
           "startH": 16.5,
           "endH": 17.5,
           "label": "Menlo: Willow Oaks C1"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Menlo: Willow Oaks C2"
         }
       ]
     },
@@ -238,12 +133,7 @@
     "2026-06-27": {
       "presidio": [
         {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 12,
+          "startH": 15,
           "endH": 19.5,
           "label": "Presidio Court 4"
         }
