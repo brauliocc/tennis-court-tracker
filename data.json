@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-25T12:23:50.095Z",
+  "fetchedAt": "2026-06-25T15:40:46.494Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-25T12:23:50.426Z",
-    "ggp": "2026-06-25T12:23:51.817Z",
-    "menlo": "2026-06-25T12:23:55.587Z"
+    "presidio": "2026-06-25T15:40:46.915Z",
+    "ggp": "2026-06-25T15:40:47.576Z",
+    "menlo": "2026-06-25T15:40:50.658Z"
   },
   "days": {
     "2026-06-25": {
@@ -78,16 +78,6 @@
       ],
       "menlo": [
         {
-          "startH": 8,
-          "endH": 9,
-          "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Burgess Park"
-        },
-        {
           "startH": 9,
           "endH": 10,
           "label": "Menlo: Burgess Park"
@@ -151,16 +141,6 @@
           "startH": 16.5,
           "endH": 17.5,
           "label": "Menlo: Burgess Park"
-        },
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 8.5,
-          "endH": 9.5,
-          "label": "Menlo: Kelly Park"
         },
         {
           "startH": 9,
@@ -394,11 +374,6 @@
       "presidio": [
         {
           "startH": 7.5,
-          "endH": 8.5,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 9.5,
           "endH": 19.5,
           "label": "Presidio Court 4"
         }
