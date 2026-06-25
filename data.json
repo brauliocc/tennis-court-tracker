@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-25T00:15:59.154Z",
+  "fetchedAt": "2026-06-25T05:07:15.814Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-25T00:15:59.367Z",
-    "ggp": "2026-06-25T00:16:00.012Z",
-    "menlo": "2026-06-25T00:16:02.131Z"
+    "presidio": "2026-06-25T05:07:16.153Z",
+    "ggp": "2026-06-25T05:07:16.875Z",
+    "menlo": "2026-06-25T05:07:18.240Z"
   },
   "days": {
     "2026-06-25": {
@@ -16,11 +16,6 @@
         {
           "startH": 7.5,
           "endH": 9,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 10.5,
-          "endH": 12,
           "label": "Presidio Court 3"
         },
         {
@@ -253,16 +248,6 @@
           "label": "Menlo: Kelly Park"
         },
         {
-          "startH": 19,
-          "endH": 20,
-          "label": "Menlo: Kelly Park"
-        },
-        {
-          "startH": 19.5,
-          "endH": 20.5,
-          "label": "Menlo: Kelly Park"
-        },
-        {
           "startH": 12.5,
           "endH": 13.5,
           "label": "Menlo: Nealon Park C1"
@@ -433,16 +418,6 @@
     },
     "2026-06-28": {
       "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 3"
-        },
         {
           "startH": 14,
           "endH": 15,
