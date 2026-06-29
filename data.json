@@ -1,84 +1,19 @@
 {
-  "fetchedAt": "2026-06-29T20:02:46.647Z",
+  "fetchedAt": "2026-06-29T22:11:03.741Z",
   "courtsFetchedAt": {
-    "presidio": "2026-06-29T20:02:46.916Z",
-    "ggp": "2026-06-29T20:02:47.660Z",
-    "menlo": "2026-06-29T20:02:48.702Z"
+    "ggp": "2026-06-29T22:11:15.131Z"
   },
   "days": {
     "2026-06-29": {},
     "2026-06-30": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 12,
-          "endH": 16.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 10,
-          "endH": 18,
-          "label": "Presidio Court 4"
-        }
-      ],
-      "ggp": [
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Golden Gate Park"
-        }
-      ]
+      "presidioError": "fetch failed",
+      "ggp": []
     },
     "2026-07-01": {
-      "menlo": []
+      "menloError": "fetch failed"
     },
     "2026-07-02": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 1"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 13.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 15,
-          "endH": 16.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 17,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 18,
-          "endH": 19.5,
-          "label": "Presidio Court 4"
-        }
-      ],
+      "presidioError": "fetch failed",
       "ggp": [
         {
           "startH": 7,
@@ -121,42 +56,11 @@
           "label": "Golden Gate Park"
         }
       ],
-      "menlo": []
+      "menloError": "fetch failed"
     },
     "2026-07-03": {},
     "2026-07-04": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 10.5,
-          "endH": 12,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 15,
-          "endH": 19.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 14,
-          "endH": 19.5,
-          "label": "Presidio Court 4"
-        }
-      ],
+      "presidioError": "fetch failed",
       "ggp": [
         {
           "startH": 7,
@@ -231,53 +135,7 @@
       ]
     },
     "2026-07-05": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 1"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 10.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 12,
-          "endH": 13.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 15,
-          "endH": 16.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 18,
-          "endH": 19.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 12,
-          "endH": 16.5,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 18,
-          "endH": 19.5,
-          "label": "Presidio Court 4"
-        }
-      ],
+      "presidioError": "fetch failed",
       "ggp": [
         {
           "startH": 7,
