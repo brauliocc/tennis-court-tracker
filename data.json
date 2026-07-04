@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-04T17:09:16.034Z",
+  "fetchedAt": "2026-07-04T19:19:02.230Z",
   "courtsFetchedAt": {
-    "presidio": "2026-07-04T17:09:16.265Z",
-    "ggp": "2026-07-04T17:09:16.888Z",
-    "menlo": "2026-07-04T17:09:19.659Z"
+    "presidio": "2026-07-04T19:19:02.677Z",
+    "ggp": "2026-07-04T19:19:03.354Z",
+    "menlo": "2026-07-04T19:19:06.304Z"
   },
   "days": {
     "2026-07-04": {
@@ -43,11 +43,6 @@
         {
           "startH": 9,
           "endH": 10,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 11,
-          "endH": 12,
           "label": "Golden Gate Park"
         },
         {
@@ -115,13 +110,8 @@
           "label": "Presidio Court 3"
         },
         {
-          "startH": 18,
-          "endH": 19.5,
-          "label": "Presidio Court 3"
-        },
-        {
           "startH": 7.5,
-          "endH": 10.5,
+          "endH": 9,
           "label": "Presidio Court 4"
         },
         {
@@ -142,13 +132,8 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 8,
-          "endH": 9,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 13,
-          "endH": 14,
+          "startH": 9,
+          "endH": 10,
           "label": "Golden Gate Park"
         },
         {
@@ -159,6 +144,11 @@
         {
           "startH": 19,
           "endH": 20,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 20,
+          "endH": 21,
           "label": "Golden Gate Park"
         },
         {
@@ -331,6 +321,16 @@
           "startH": 16,
           "endH": 17,
           "label": "Golden Gate Park"
+        },
+        {
+          "startH": 20,
+          "endH": 21,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 21,
+          "endH": 22,
+          "label": "Golden Gate Park"
         }
       ],
       "menlo": []
@@ -373,6 +373,11 @@
         {
           "startH": 8,
           "endH": 9,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 9,
+          "endH": 10,
           "label": "Golden Gate Park"
         },
         {
