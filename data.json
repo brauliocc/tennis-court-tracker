@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-05T13:47:32.545Z",
+  "fetchedAt": "2026-07-05T15:15:45.481Z",
   "courtsFetchedAt": {
-    "presidio": "2026-07-05T13:47:32.952Z",
-    "ggp": "2026-07-05T13:47:33.563Z",
-    "menlo": "2026-07-05T13:47:36.144Z"
+    "presidio": "2026-07-05T15:15:45.946Z",
+    "ggp": "2026-07-05T15:15:46.633Z",
+    "menlo": "2026-07-05T15:15:48.678Z"
   },
   "days": {
     "2026-07-05": {
@@ -19,13 +19,13 @@
           "label": "Presidio Court 3"
         },
         {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 4"
+          "startH": 18,
+          "endH": 19.5,
+          "label": "Presidio Court 3"
         },
         {
-          "startH": 15,
-          "endH": 16.5,
+          "startH": 7.5,
+          "endH": 9,
           "label": "Presidio Court 4"
         }
       ],
@@ -360,6 +360,16 @@
         },
         {
           "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 12,
+          "endH": 13.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 15,
           "endH": 19.5,
           "label": "Presidio Court 3"
         },
