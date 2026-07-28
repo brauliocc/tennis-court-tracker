@@ -1,44 +1,12 @@
 {
-  "fetchedAt": "2026-07-28T11:20:33.641Z",
+  "fetchedAt": "2026-07-28T14:15:12.153Z",
   "courtsFetchedAt": {
-    "presidio": "2026-07-28T11:20:33.997Z",
-    "ggp": "2026-07-28T11:20:34.860Z",
-    "menlo": "2026-07-28T11:20:36.536Z"
+    "ggp": "2026-07-28T14:15:13.487Z",
+    "menlo": "2026-07-28T14:15:14.945Z"
   },
   "days": {
     "2026-07-28": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 1"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 10.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 12,
-          "endH": 13.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 15,
-          "endH": 18,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 18,
-          "label": "Presidio Court 4"
-        }
-      ],
+      "presidioError": "rec.us HTTP 403",
       "ggp": [
         {
           "startH": 7,
@@ -58,6 +26,11 @@
         {
           "startH": 10,
           "endH": 11,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 11,
+          "endH": 12,
           "label": "Golden Gate Park"
         },
         {
@@ -91,38 +64,7 @@
       "menlo": []
     },
     "2026-07-30": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 10.5,
-          "endH": 12,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 13.5,
-          "endH": 16.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 18,
-          "endH": 19.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 19.5,
-          "label": "Presidio Court 4"
-        }
-      ],
+      "presidioError": "rec.us HTTP 403",
       "ggp": [
         {
           "startH": 7,
@@ -135,11 +77,6 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 11,
-          "endH": 12,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 14,
           "endH": 15,
           "label": "Golden Gate Park"
@@ -149,28 +86,7 @@
     },
     "2026-07-31": {},
     "2026-08-01": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 18,
-          "endH": 19.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 8.5,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 13,
-          "endH": 19.5,
-          "label": "Presidio Court 4"
-        }
-      ],
+      "presidioError": "rec.us HTTP 403",
       "ggp": [
         {
           "startH": 7,
@@ -235,28 +151,7 @@
       ]
     },
     "2026-08-02": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 16,
-          "endH": 19.5,
-          "label": "Presidio Court 4"
-        }
-      ],
+      "presidioError": "rec.us HTTP 403",
       "ggp": [
         {
           "startH": 7,
@@ -307,33 +202,7 @@
     },
     "2026-08-03": {},
     "2026-08-04": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 1"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 19.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 10,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 12,
-          "endH": 19.5,
-          "label": "Presidio Court 4"
-        }
-      ],
+      "presidioError": "rec.us HTTP 403",
       "ggp": [
         {
           "startH": 7,
