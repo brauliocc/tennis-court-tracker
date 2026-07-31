@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-31T12:02:33.177Z",
+  "fetchedAt": "2026-07-31T15:21:43.525Z",
   "courtsFetchedAt": {
-    "presidio": "2026-07-31T12:02:33.385Z",
-    "menlo": "2026-07-31T12:02:36.996Z"
+    "presidio": "2026-07-31T15:21:43.890Z",
+    "menlo": "2026-07-31T15:21:47.781Z"
   },
   "days": {
     "2026-07-31": {},
@@ -14,7 +14,7 @@
           "label": "Presidio Court 4"
         },
         {
-          "startH": 16.5,
+          "startH": 18,
           "endH": 19.5,
           "label": "Presidio Court 4"
         }
@@ -29,7 +29,7 @@
           "label": "Presidio Court 4"
         },
         {
-          "startH": 16,
+          "startH": 12,
           "endH": 19.5,
           "label": "Presidio Court 4"
         }
