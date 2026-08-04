@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-04T16:53:58.050Z",
+  "fetchedAt": "2026-08-04T18:40:05.044Z",
   "courtsFetchedAt": {
-    "presidio": "2026-08-04T16:53:58.415Z",
-    "ggp": "2026-08-04T16:53:59.499Z",
-    "menlo": "2026-08-04T16:54:01.096Z"
+    "presidio": "2026-08-04T18:40:05.409Z",
+    "ggp": "2026-08-04T18:40:06.552Z",
+    "menlo": "2026-08-04T18:40:08.052Z"
   },
   "days": {
     "2026-08-04": {
@@ -30,7 +30,7 @@
         },
         {
           "startH": 13.5,
-          "endH": 18,
+          "endH": 16.5,
           "label": "Presidio Court 4"
         }
       ],
@@ -38,6 +38,11 @@
         {
           "startH": 7,
           "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 12,
+          "endH": 13,
           "label": "Golden Gate Park"
         }
       ]
@@ -53,7 +58,7 @@
           "label": "Presidio Court 2"
         },
         {
-          "startH": 10.5,
+          "startH": 12,
           "endH": 16.5,
           "label": "Presidio Court 3"
         },
@@ -63,22 +68,16 @@
           "label": "Presidio Court 4"
         }
       ],
-      "ggp": [
-        {
-          "startH": 16,
-          "endH": 17,
-          "label": "Golden Gate Park"
-        }
-      ],
+      "ggp": [],
       "menlo": []
     },
     "2026-08-07": {},
     "2026-08-08": {
       "presidio": [
         {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
+          "startH": 15,
+          "endH": 16.5,
+          "label": "Presidio Court 3"
         },
         {
           "startH": 7.5,
@@ -95,6 +94,11 @@
         {
           "startH": 7,
           "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 9,
+          "endH": 10,
           "label": "Golden Gate Park"
         },
         {
@@ -139,11 +143,6 @@
         {
           "startH": 7.5,
           "endH": 9,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 13.5,
-          "endH": 15,
           "label": "Presidio Court 3"
         },
         {
