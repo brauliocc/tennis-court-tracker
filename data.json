@@ -1,12 +1,11 @@
 {
-  "fetchedAt": "2026-08-28T23:55:20.677Z",
+  "fetchedAt": "2026-08-29T06:23:52.694Z",
   "courtsFetchedAt": {
-    "presidio": "2026-08-28T23:55:20.910Z",
-    "ggp": "2026-08-28T23:55:21.512Z",
-    "menlo": "2026-08-28T23:55:25.221Z"
+    "presidio": "2026-08-29T06:23:55.013Z",
+    "ggp": "2026-08-29T06:23:56.615Z",
+    "menlo": "2026-08-29T06:24:00.136Z"
   },
   "days": {
-    "2026-08-28": {},
     "2026-08-29": {
       "presidio": [
         {
@@ -22,18 +21,8 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 8,
-          "endH": 9,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 17,
           "endH": 18,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 18,
-          "endH": 19,
           "label": "Golden Gate Park"
         },
         {
@@ -230,6 +219,57 @@
       ],
       "menlo": []
     },
-    "2026-09-04": {}
+    "2026-09-04": {},
+    "2026-09-05": {
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 1"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 2"
+        },
+        {
+          "startH": 7.5,
+          "endH": 19.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 7.5,
+          "endH": 8.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 10,
+          "endH": 12,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 14,
+          "endH": 19.5,
+          "label": "Presidio Court 4"
+        }
+      ],
+      "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 14,
+          "endH": 15,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 21,
+          "endH": 22,
+          "label": "Golden Gate Park"
+        }
+      ]
+    }
   }
 }
