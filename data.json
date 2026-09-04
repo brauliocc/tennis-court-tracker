@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-09-04T17:27:25.280Z",
+  "fetchedAt": "2026-09-04T20:29:52.729Z",
   "courtsFetchedAt": {
-    "presidio": "2026-09-04T17:27:25.506Z",
-    "ggp": "2026-09-04T17:27:26.404Z",
-    "menlo": "2026-09-04T17:27:29.236Z"
+    "presidio": "2026-09-04T20:29:53.128Z",
+    "ggp": "2026-09-04T20:29:53.710Z",
+    "menlo": "2026-09-04T20:29:58.269Z"
   },
   "days": {
     "2026-09-04": {},
@@ -32,11 +32,6 @@
       ],
       "ggp": [
         {
-          "startH": 8,
-          "endH": 9,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 14,
           "endH": 15,
           "label": "Golden Gate Park"
@@ -46,13 +41,13 @@
     "2026-09-06": {
       "presidio": [
         {
-          "startH": 7.5,
-          "endH": 10,
-          "label": "Presidio Court 4"
+          "startH": 12,
+          "endH": 13.5,
+          "label": "Presidio Court 3"
         },
         {
-          "startH": 13,
-          "endH": 15.5,
+          "startH": 7.5,
+          "endH": 10,
           "label": "Presidio Court 4"
         },
         {
@@ -94,6 +89,11 @@
         },
         {
           "startH": 7.5,
+          "endH": 9.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 10.5,
           "endH": 15,
           "label": "Presidio Court 4"
         },
@@ -160,11 +160,6 @@
           "startH": 7.5,
           "endH": 9,
           "label": "Presidio Court 1"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
         },
         {
           "startH": 7.5,
