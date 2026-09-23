@@ -1,62 +1,11 @@
 {
-  "fetchedAt": "2026-09-22T21:52:26.092Z",
+  "fetchedAt": "2026-09-23T00:07:59.445Z",
   "courtsFetchedAt": {
-    "presidio": "2026-09-22T21:52:26.410Z",
-    "ggp": "2026-09-22T21:52:27.491Z",
-    "menlo": "2026-09-22T21:52:29.004Z"
+    "menlo": "2026-09-23T00:08:00.803Z",
+    "presidio": "2026-09-23T00:08:01.070Z",
+    "ggp": "2026-09-23T00:08:01.961Z"
   },
   "days": {
-    "2026-09-22": {
-      "presidio": [
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 2"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 10.5,
-          "endH": 12,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 13.5,
-          "endH": 15,
-          "label": "Presidio Court 4"
-        }
-      ],
-      "ggp": [
-        {
-          "startH": 7,
-          "endH": 8,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 12,
-          "endH": 13,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 15,
-          "endH": 16,
-          "label": "Golden Gate Park"
-        }
-      ]
-    },
     "2026-09-23": {
       "menlo": []
     },
@@ -79,11 +28,6 @@
         }
       ],
       "ggp": [
-        {
-          "startH": 7,
-          "endH": 8,
-          "label": "Golden Gate Park"
-        },
         {
           "startH": 8,
           "endH": 9,
@@ -154,6 +98,11 @@
         },
         {
           "startH": 10.5,
+          "endH": 12,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 13.5,
           "endH": 15,
           "label": "Presidio Court 3"
         },
@@ -195,6 +144,9 @@
           "label": "Golden Gate Park"
         }
       ]
+    },
+    "2026-09-30": {
+      "menlo": []
     }
   }
 }
