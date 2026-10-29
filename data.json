@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-29T16:44:22.094Z",
+  "fetchedAt": "2026-10-29T21:38:56.623Z",
   "courtsFetchedAt": {
-    "presidio": "2026-10-29T16:44:22.399Z",
-    "ggp": "2026-10-29T16:44:22.989Z",
-    "menlo": "2026-10-29T16:44:24.334Z"
+    "presidio": "2026-10-29T21:38:56.864Z",
+    "ggp": "2026-10-29T21:38:57.433Z",
+    "menlo": "2026-10-29T21:38:58.772Z"
   },
   "days": {
     "2026-10-29": {
@@ -32,11 +32,6 @@
           "startH": 10.5,
           "endH": 12,
           "label": "Presidio Court 4"
-        },
-        {
-          "startH": 12,
-          "endH": 13.5,
-          "label": "Presidio Court 4"
         }
       ],
       "ggp": [
@@ -56,11 +51,6 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 10,
-          "endH": 11,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Golden Gate Park"
@@ -71,18 +61,13 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 14,
-          "endH": 15,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 15,
           "endH": 16,
           "label": "Golden Gate Park"
         },
         {
-          "startH": 16,
-          "endH": 17,
+          "startH": 21,
+          "endH": 22,
           "label": "Golden Gate Park"
         }
       ],
@@ -97,27 +82,17 @@
           "label": "Presidio Court 3"
         },
         {
-          "startH": 13.5,
-          "endH": 15,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 15,
-          "endH": 16.5,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 16.5,
-          "endH": 18,
-          "label": "Presidio Court 4"
-        },
-        {
           "startH": 18,
           "endH": 19.5,
           "label": "Presidio Court 4"
         }
       ],
       "ggp": [
+        {
+          "startH": 7,
+          "endH": 8,
+          "label": "Golden Gate Park"
+        },
         {
           "startH": 14,
           "endH": 15,
