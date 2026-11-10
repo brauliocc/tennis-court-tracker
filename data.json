@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-11-10T16:52:12.174Z",
+  "fetchedAt": "2026-11-10T22:11:52.759Z",
   "courtsFetchedAt": {
-    "presidio": "2026-11-10T16:52:12.527Z",
-    "ggp": "2026-11-10T16:52:12.735Z",
-    "menlo": "2026-11-10T16:52:14.438Z"
+    "presidio": "2026-11-10T22:11:53.171Z",
+    "ggp": "2026-11-10T22:11:53.756Z",
+    "menlo": "2026-11-10T22:11:55.526Z"
   },
   "days": {
     "2026-11-10": {
@@ -21,11 +21,6 @@
         {
           "startH": 9,
           "endH": 10.5,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 10.5,
-          "endH": 12,
           "label": "Presidio Court 3"
         },
         {
@@ -81,11 +76,6 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 11,
-          "endH": 12,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 12,
           "endH": 13,
           "label": "Golden Gate Park"
@@ -106,8 +96,8 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 19,
-          "endH": 20,
+          "startH": 21,
+          "endH": 22,
           "label": "Golden Gate Park"
         }
       ]
@@ -130,11 +120,6 @@
         {
           "startH": 10.5,
           "endH": 12,
-          "label": "Presidio Court 3"
-        },
-        {
-          "startH": 12,
-          "endH": 13.5,
           "label": "Presidio Court 3"
         },
         {
@@ -174,11 +159,6 @@
         }
       ],
       "ggp": [
-        {
-          "startH": 8,
-          "endH": 9,
-          "label": "Golden Gate Park"
-        },
         {
           "startH": 9,
           "endH": 10,
@@ -236,11 +216,6 @@
           "startH": 16,
           "endH": 17,
           "label": "Golden Gate Park"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
-          "label": "Golden Gate Park"
         }
       ]
     },
@@ -252,18 +227,8 @@
           "label": "Presidio Court 2"
         },
         {
-          "startH": 7.5,
-          "endH": 9,
-          "label": "Presidio Court 3"
-        },
-        {
           "startH": 12,
           "endH": 13.5,
-          "label": "Presidio Court 4"
-        },
-        {
-          "startH": 13.5,
-          "endH": 15,
           "label": "Presidio Court 4"
         },
         {
