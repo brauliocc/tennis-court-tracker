@@ -1,18 +1,13 @@
 {
-  "fetchedAt": "2026-11-15T16:13:19.263Z",
+  "fetchedAt": "2026-11-15T21:31:03.615Z",
   "courtsFetchedAt": {
-    "presidio": "2026-11-15T16:13:19.456Z",
-    "ggp": "2026-11-15T16:13:19.954Z",
-    "menlo": "2026-11-15T16:13:21.542Z"
+    "presidio": "2026-11-15T21:31:03.926Z",
+    "ggp": "2026-11-15T21:31:04.492Z",
+    "menlo": "2026-11-15T21:31:06.146Z"
   },
   "days": {
     "2026-11-15": {
       "presidio": [
-        {
-          "startH": 12,
-          "endH": 13.5,
-          "label": "Presidio Court 4"
-        },
         {
           "startH": 15,
           "endH": 16.5,
@@ -31,6 +26,11 @@
           "label": "Golden Gate Park"
         },
         {
+          "startH": 9,
+          "endH": 10,
+          "label": "Golden Gate Park"
+        },
+        {
           "startH": 10,
           "endH": 11,
           "label": "Golden Gate Park"
@@ -46,16 +46,6 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 13,
-          "endH": 14,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 14,
-          "endH": 15,
-          "label": "Golden Gate Park"
-        },
-        {
           "startH": 15,
           "endH": 16,
           "label": "Golden Gate Park"
@@ -68,6 +58,21 @@
         {
           "startH": 17,
           "endH": 18,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 18,
+          "endH": 19,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 19,
+          "endH": 20,
+          "label": "Golden Gate Park"
+        },
+        {
+          "startH": 20,
+          "endH": 21,
           "label": "Golden Gate Park"
         },
         {
@@ -323,11 +328,6 @@
           "label": "Presidio Court 3"
         },
         {
-          "startH": 15,
-          "endH": 16.5,
-          "label": "Presidio Court 3"
-        },
-        {
           "startH": 16.5,
           "endH": 18,
           "label": "Presidio Court 3"
@@ -352,16 +352,6 @@
         {
           "startH": 7,
           "endH": 8,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 20,
-          "endH": 21,
-          "label": "Golden Gate Park"
-        },
-        {
-          "startH": 21,
-          "endH": 22,
           "label": "Golden Gate Park"
         }
       ]
