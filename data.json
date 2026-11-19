@@ -1,14 +1,11 @@
 {
-  "fetchedAt": "2026-11-18T21:10:30.016Z",
+  "fetchedAt": "2026-11-19T02:58:48.117Z",
   "courtsFetchedAt": {
-    "menlo": "2026-11-18T21:10:32.002Z",
-    "presidio": "2026-11-18T21:10:32.373Z",
-    "ggp": "2026-11-18T21:10:32.580Z"
+    "presidio": "2026-11-19T02:58:48.365Z",
+    "ggp": "2026-11-19T02:58:48.683Z",
+    "menlo": "2026-11-19T02:58:49.583Z"
   },
   "days": {
-    "2026-11-18": {
-      "menlo": []
-    },
     "2026-11-19": {
       "presidio": [
         {
@@ -144,8 +141,8 @@
           "label": "Golden Gate Park"
         },
         {
-          "startH": 20,
-          "endH": 21,
+          "startH": 18,
+          "endH": 19,
           "label": "Golden Gate Park"
         }
       ],
@@ -346,6 +343,92 @@
       ]
     },
     "2026-11-25": {
+      "menlo": []
+    },
+    "2026-11-26": {
+      "presidio": [
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 1"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 2"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 9,
+          "endH": 10.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 10.5,
+          "endH": 12,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 12,
+          "endH": 13.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 13.5,
+          "endH": 15,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 15,
+          "endH": 16.5,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 16.5,
+          "endH": 18,
+          "label": "Presidio Court 3"
+        },
+        {
+          "startH": 7.5,
+          "endH": 9,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 9,
+          "endH": 10.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 10.5,
+          "endH": 12,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 12,
+          "endH": 13.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 13.5,
+          "endH": 15,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 15,
+          "endH": 16.5,
+          "label": "Presidio Court 4"
+        },
+        {
+          "startH": 16.5,
+          "endH": 18,
+          "label": "Presidio Court 4"
+        }
+      ],
+      "ggp": [],
       "menlo": []
     }
   }
